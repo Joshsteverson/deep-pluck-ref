@@ -1,6 +1,6 @@
 {
   "name": "deep-pluck-ref",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deep pluck properties by returning their parent reference.",
   "main": "index.js",
   "scripts": {
