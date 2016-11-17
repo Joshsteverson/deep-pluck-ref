@@ -12,8 +12,9 @@ $ npm install deep-pluck-ref
 ```
 # Usage
 ```javascript
-var deepPluckRef = require('deep-pluck-ref');
-var obj = {
+import deepPluckRef from 'deep-pluck-ref';
+
+const obj = {
 	do: {
 		all: {
 			the: {
@@ -34,8 +35,8 @@ var obj = {
 		}
 	}
 };
-var results = deepPluckRef(obj, ['value']);
-console.log(result);
+const results = deepPluckRef(obj, ['value']);
 // [ { ref: { thing: 'one', value: 'thing one value' } }, 
 // { ref: { thing: 'two', value: 'thing two value' } } ]
+
 ```
