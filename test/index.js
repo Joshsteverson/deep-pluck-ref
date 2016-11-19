@@ -31,6 +31,8 @@ describe('Module tests', function describeCb() {
 		};
 		var results = deepPluckRef(obj, ['value']);
 		results.length.should.equal(2);
+		const valuesPresent = results.every(r => (typeof r.value).should.equal('string'));
+		valuesPresent.should.equal(true);
 		done();
 	});
 
