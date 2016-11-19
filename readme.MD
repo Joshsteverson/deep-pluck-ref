@@ -36,7 +36,7 @@ const obj = {
 	}
 };
 const results = deepPluckRef(obj, ['value']);
-// [ { ref: { thing: 'one', value: 'thing one value' } }, 
-// { ref: { thing: 'two', value: 'thing two value' } } ]
+// [ { thing: 'one', value: 'thing one value' }, 
+// { { thing: 'two', value: 'thing two value' } ]
 
 ```
